@@ -14,20 +14,21 @@ body{
     background-color: #4A0E2A;
 }
 
-.lamp-contain{
-    display: flex;
+.lamp-container{
+    position: fixed;
     flex-direction: column;
     align-items: center; 
+    width: 300px;
 }
-
 img{
     width: 340px;
     height: auto;
     margin-bottom: 20px;
 }
 button{
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 16px;
+    width: 100px;
     cursor: pointer;
     border: 2px solid #5E0018;
     border-radius: 5px;
