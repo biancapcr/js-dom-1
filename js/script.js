@@ -13,4 +13,10 @@ toggleBtn.addEventListener('click', () =>{
         // Cambio il testo del bottone in "Spegni"
         toggleBtn.textContent = 'Spegni';
     }
+    else{
+        // Altrimenti ("Spegni"), ripristino la lampadina "spenta"
+        bulbImg.src = 'img/white_lamp.png';
+        // Cambio il testo del bottone in "Accendi"
+        toggleBtn.textContent = 'Accendi';
+    }
 });
