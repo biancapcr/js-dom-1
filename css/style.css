@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;       
     justify-content: flex-start;
-    height: 65vh;
+    height: 80vh;
     padding-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #4A0E2A;
@@ -21,7 +21,7 @@ body{
     width: 300px;
 }
 img{
-    width: 340px;
+    width: 350px;
     height: auto;
     margin-bottom: 20px;
 }
