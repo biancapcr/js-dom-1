@@ -8,17 +8,17 @@ const toggleBtn = document.getElementById('toggle-btn');
 toggleBtn.addEventListener('click', () =>{
     let isOn;
     // Controllo se il testo del bottone contiene "Accendi"
-    if (toggleBtn.textContent.includes('Accendi')){
+  if (toggleBtn.textContent.includes('Accendi')){
         // Se sì, "accesa"
         bulbImg.src = 'img/yellow_lamp.png';
-        // Cambio il testo del bottone in "Spegni"
         toggleBtn.textContent = 'Spegni';
+        isOn = true;
     }
-    else{
+  else{
         // Altrimenti ("Spegni"), ripristino la lampadina "spenta"
         bulbImg.src = 'img/white_lamp.png';
-        // Cambio il testo del bottone in "Accendi"
         toggleBtn.textContent = 'Accendi';
+        isOn = false;
     }
     // Stampa
     console.log(`Lampadina ${isOn ? 'accesa' : 'spenta'}`);
