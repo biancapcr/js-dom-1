@@ -6,6 +6,7 @@ const toggleBtn = document.getElementById('toggle-btn');
 
 // Aggiungo un listener sul click del bottone
 toggleBtn.addEventListener('click', () =>{
+    let isOn;
     // Controllo se il testo del bottone contiene "Accendi"
     if (toggleBtn.textContent.includes('Accendi')){
         // Se sì, "accesa"
@@ -19,4 +20,6 @@ toggleBtn.addEventListener('click', () =>{
         // Cambio il testo del bottone in "Accendi"
         toggleBtn.textContent = 'Accendi';
     }
+    // Stampa
+    console.log(`Lampadina ${isOn ? 'accesa' : 'spenta'}`);
 });
