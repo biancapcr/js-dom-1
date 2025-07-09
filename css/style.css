@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;       
+    justify-content: flex-start;
+    height: 65vh;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4A0E2A;
+}
+
+.lamp-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+img{
+    width: 340px;
+    height: auto;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #5E0018;
+    border-radius: 5px;
+    background-color: #800020;
+    color: #FFFFFF;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: #C19A6B;
+    color: #5E0018;
+}
